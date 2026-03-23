@@ -1,0 +1,237 @@
+/*comentario vamos voltar ao normal as formatações*/
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #1a1a1a;
+    color: aliceblue;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+
+/*cabeça do projeto */
+#meunome1 {
+    font-size: 36px;
+    margin-top: 1%;
+    margin-left: 2%;
+    display: flexbox;
+}
+
+.apresentacao1 {
+    margin-left: 2%;
+    margin-top: 4%;
+    font-size: 45px;
+    font-family: sans-serif;
+}
+
+
+
+
+#botao1 {
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 81%;
+    display: flex;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+
+}
+
+#botao1:hover {
+    background-color: var(--azul)
+}
+
+#botao2 {
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 89%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    display: flex;
+    background-color: var(--azul);
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+
+
+#botao3 {
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 74%;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+
+}
+
+#botao3:hover {
+    background-color: var(--azul)
+}
+
+:root {
+    --azul: dodgerblue
+}
+
+#botao4 {
+
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 68%;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+
+}
+
+#botao4:hover {
+    background-color: var(--azul)
+}
+
+/*meio */
+
+
+#sobremim {
+    position: relative;
+    margin-left: 1%;
+    margin-top: 2%;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: underline rgba(41, 126, 236, 0.708);
+
+
+}
+
+
+
+.habilidade {
+    padding-right: 20%;
+    padding-bottom: 1%;
+    float: right;
+    text-align: end;
+    margin-top: 5%;
+    font-style: oblique;
+
+}
+
+.habilidades {
+    background-color: rgba(255, 255, 255, 0.121);
+    display: inline-block;
+    padding: 10px;
+    padding-right: 10%;
+    border-radius: 8px;
+    margin-left: 60%;
+}
+
+.html {
+    border-right: solid;
+    background-color: rgb(219, 16, 43);
+    border-width: 90px;
+    border-color: rgba(219, 16, 43, 0.506);
+    padding-right: 5%;
+
+}
+
+.css {
+    border-right: solid;
+    padding-right: 3%;
+    border-width: 110px;
+    border-color: purple;
+}
+
+.python {
+    border-right: solid;
+    padding-right: 0%;
+    border-width: 300px;
+    border-color: var(--azul);
+}
+
+.postgre {
+    border-right: solid;
+    padding-right: 5%;
+    border-width: 60px;
+    border-color: green;
+}
+
+
+
+
+
+#verprojetos {
+    position: relative;
+    margin-top: 2%;
+    padding: 0.3%;
+    padding-inline: 1.3%;
+    margin-left: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 23px;
+
+    border-radius: 4%;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-color: rgba(24, 151, 243, 0.824);
+
+
+}
+
+
+
+
+
+/*parte baixa*/
+.apresentacao2 {
+    font-size: 22px;
+    border: 3px solid rgba(255, 255, 255, 0.183);
+    padding: 1%;
+    margin-top: 1%;
+    margin-left: 28px;
+    background-color: rgba(169, 169, 169, 0.067);
+    border-radius: 22px;
+    display: inline-flex;
+}
+
+.cabeçalho {
+    display: inline block;
+    text-align: center;
+}
+
+
+.projeto {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 2%;
+
+
+}
+
+.projetosdiv {
+    display: flex;
+    margin-top: 3%;
+}
+
+/*validador de cpf*/
+.validador {
+    text-align: center;
+    margin-left: 5%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px
+}
+
+/*footer*/
+.DIRETOS {
+    display: flex;
+    text-align: left;
+
+}
