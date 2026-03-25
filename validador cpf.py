@@ -25,14 +25,6 @@ if multiplicacao > 9:
 else:print(f"o primeiro digito verificador do seu cpf e : {multiplicacao}")
 
 
-
-
-
-
-
-
-
-
 """Calculo do segundo dígito do CPF"""
 CPF=input('digite seu cpf : ')
 CPF= CPF[:10]
